@@ -1,0 +1,3 @@
+# tools
+
+Skrypty pomocnicze (opcjonalnie).
