@@ -1,10 +1,10 @@
 # Build folders
-/build/
-/Debug/
-/Release/
-/out/
-/bin/
-/obj/
+build/
+Debug/
+Release/
+out/
+bin/
+obj/
 
 # CMake
 CMakeFiles/
