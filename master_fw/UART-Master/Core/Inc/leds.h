@@ -1,11 +1,14 @@
+// Copyright 2026 TOK3T
 /* leds.h
  * LED control module
  */
-#ifndef __LEDS_H
-#define __LEDS_H
+#ifndef MASTER_FW_UART_MASTER_CORE_INC_LEDS_H_
+#define MASTER_FW_UART_MASTER_CORE_INC_LEDS_H_
 
 #include <stdint.h>
+
 #include "main.h"
+
 
 #ifdef __cplusplus
 extern "C" {
@@ -20,4 +23,4 @@ void Led_OnDisconnect(void);
 }
 #endif
 
-#endif /* __LEDS_H */
+#endif  // MASTER_FW_UART_MASTER_CORE_INC_LEDS_H_
