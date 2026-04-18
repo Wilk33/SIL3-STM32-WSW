@@ -7,7 +7,9 @@
 #define MASTER_FW_UART_MASTER_CORE_INC_APP_H_
 
 #include <stdint.h>
+
 #include "main.h"
+
 
 #ifdef __cplusplus
 extern "C" {
