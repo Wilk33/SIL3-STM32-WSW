@@ -50,7 +50,7 @@ void Led_OnDisconnect(void) {
     HAL_GPIO_WritePin(Led_Signal_GPIO_Port, Led_Signal_Pin, GPIO_PIN_SET);
 }
 
-/* EXTI callback for buttons — exported as the standard HAL callback name so it
+/* EXTI calback for buttons — exported as the standard HAL callback name so it
  * will be used Only button logic lives here; UART handling is delegated to uart
  * module. */
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
