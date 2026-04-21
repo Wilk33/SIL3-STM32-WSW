@@ -58,7 +58,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     else {
         if (GPIO_Pin == Button_Signal_Pin) {
             HAL_GPIO_WritePin(Led_Signal_GPIO_Port, Led_Signal_Pin, GPIO_PIN_RESET);
-            /* inform UART layer that connection is OK */
+            /* inform UART layer that conection is OK */
             extern void UART_SetConnectionOk(void);
             UART_SetConnectionOk();
         }
