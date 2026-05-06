@@ -1,6 +1,6 @@
-//Copyright 2026 Tobiasz_Kandziora
-#ifndef SIL_WATCHDOG_H
-#define SIL_WATCHDOG_H
+// Copyright 2026 Tobiasz_Kandziora
+#ifndef SLAVE_FW_UART_SLAVE_CORE_INC_SIL_WATCHDOG_H_
+#define SLAVE_FW_UART_SLAVE_CORE_INC_SIL_WATCHDOG_H_
 
 #include <stdint.h>
 
@@ -14,4 +14,4 @@ uint16_t SIL_CalculateCRC(uint8_t *data, uint8_t length);
 int SIL_ProcessPingFrame(uint8_t *buffer, uint8_t *last_seq,
                          uint8_t *first_ping);
 
-#endif /* SIL_WATCHDOG_H */
+#endif  // SLAVE_FW_UART_SLAVE_CORE_INC_SIL_WATCHDOG_H_

@@ -1,4 +1,4 @@
-//Copyright 2026 Tobiasz_Kandziora
+// Copyright 2026 Tobiasz_Kandziora
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32l4xx_it.h"

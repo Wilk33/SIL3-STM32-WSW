@@ -1,6 +1,6 @@
 // Copyright 2026 Tobiasz_Kandziora
 #ifndef MASTER_FW_UART_MASTER_CORE_INC_SIL_MASTER_H_
-#define SIL_MASTER_H
+#define MASTER_FW_UART_MASTER_CORE_INC_SIL_MASTER_H_
 
 #include <stdint.h>
 

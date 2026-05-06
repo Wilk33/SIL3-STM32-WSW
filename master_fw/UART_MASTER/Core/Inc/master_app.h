@@ -1,6 +1,6 @@
 // Copyright 2026 Tobiasz_Kandziora
 #ifndef MASTER_FW_UART_MASTER_CORE_INC_MASTER_APP_H_
-#define MASTER_APP_H
+#define MASTER_FW_UART_MASTER_CORE_INC_MASTER_APP_H_
 
 #include <stdint.h>
 #include "main.h" // NOLINT

@@ -1,7 +1,7 @@
 // Copyright 2026 Tobiasz_Kandziora
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef MASTER_FW_UART_MASTER_CORE_INC_STM32L4XX_HAL_CONF_H_
-#define STM32L4xx_HAL_CONF_H
+#define MASTER_FW_UART_MASTER_CORE_INC_STM32L4XX_HAL_CONF_H_
 
 #ifdef __cplusplus
 extern "C" {
@@ -53,7 +53,7 @@ extern "C" {
 #define EXTERNAL_SAI2_CLOCK_VALUE    48000U
 #endif
 
-#define  VDD_VALUE					  3300U
+#define  VDD_VALUE                    3300U
 #define  TICK_INT_PRIORITY            0U
 #define  USE_RTOS                     0U
 #define  PREFETCH_ENABLE              0U

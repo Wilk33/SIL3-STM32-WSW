@@ -1,4 +1,4 @@
-//Copyright 2026 Tobiasz_Kandziora
+// Copyright 2026 Tobiasz_Kandziora
 #include "led_driver.h"
 #include "main.h" /* Dla definicji pinów wygenerowanych przez CubeMX */
 

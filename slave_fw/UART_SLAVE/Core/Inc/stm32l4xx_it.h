@@ -18,8 +18,8 @@
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __STM32L4xx_IT_H
-#define __STM32L4xx_IT_H
+#ifndef SLAVE_FW_UART_SLAVE_CORE_INC_STM32L4XX_IT_H_
+#define SLAVE_FW_UART_SLAVE_CORE_INC_STM32L4XX_IT_H_
 
 #ifdef __cplusplus
 extern "C" {
@@ -65,4 +65,4 @@ void USART2_IRQHandler(void);
 }
 #endif
 
-#endif /* __STM32L4xx_IT_H */
+#endif  // SLAVE_FW_UART_SLAVE_CORE_INC_STM32L4XX_IT_H_

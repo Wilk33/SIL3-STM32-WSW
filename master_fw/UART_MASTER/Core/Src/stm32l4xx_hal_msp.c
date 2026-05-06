@@ -60,7 +60,6 @@
  * Initializes the Global MSP.
  */
 void HAL_MspInit(void) {
-
   /* USER CODE BEGIN MspInit 0 */
 
   /* USER CODE END MspInit 0 */
@@ -153,7 +152,6 @@ void HAL_UART_MspInit(UART_HandleTypeDef *huart) {
 
     /* USER CODE END USART2_MspInit 1 */
   }
-
 }
 
 /**
@@ -200,7 +198,6 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef *huart) {
 
     /* USER CODE END USART2_MspDeInit 1 */
   }
-
 }
 
 /* USER CODE BEGIN 1 */

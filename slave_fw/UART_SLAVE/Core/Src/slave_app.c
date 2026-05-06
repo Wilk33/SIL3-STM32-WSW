@@ -1,4 +1,4 @@
-//Copyright 2026 Tobiasz_Kandziora
+// Copyright 2026 Tobiasz_Kandziora
 #include "slave_app.h"
 #include "led_driver.h"
 #include "sil_watchdog.h"

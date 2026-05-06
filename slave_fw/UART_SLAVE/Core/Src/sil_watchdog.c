@@ -1,4 +1,4 @@
-//Copyright 2026 Tobiasz_Kandziora
+// Copyright 2026 Tobiasz_Kandziora
 #include "sil_watchdog.h"
 #include "stm32l4xx_hal.h" /* Dla HAL_GetTick() */
 

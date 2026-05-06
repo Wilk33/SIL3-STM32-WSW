@@ -1,4 +1,4 @@
-//Copyright 2026 Tobiasz_Kandziora
+// Copyright 2026 Tobiasz_Kandziora
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
@@ -62,14 +62,12 @@ void HandleMasterRx(uint8_t rx_byte);
  * @retval int
  */
 int main(void) {
-
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
 
-  /* MCU Configuration--------------------------------------------------------*/
+  /* MCU Configuration------------------------------*/
 
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
 
   /* USER CODE BEGIN Init */
@@ -164,7 +162,6 @@ void SystemClock_Config(void) {
  * @retval None
  */
 static void MX_USART1_UART_Init(void) {
-
   /* USER CODE BEGIN USART1_Init 0 */
 
   /* USER CODE END USART1_Init 0 */
@@ -188,7 +185,6 @@ static void MX_USART1_UART_Init(void) {
   /* USER CODE BEGIN USART1_Init 2 */
 
   /* USER CODE END USART1_Init 2 */
-
 }
 
 /**
@@ -197,7 +193,6 @@ static void MX_USART1_UART_Init(void) {
  * @retval None
  */
 static void MX_USART2_UART_Init(void) {
-
   /* USER CODE BEGIN USART2_Init 0 */
 
   /* USER CODE END USART2_Init 0 */
@@ -221,7 +216,6 @@ static void MX_USART2_UART_Init(void) {
   /* USER CODE BEGIN USART2_Init 2 */
 
   /* USER CODE END USART2_Init 2 */
-
 }
 
 /**
@@ -269,7 +263,7 @@ static void MX_GPIO_Init(void) {
 
 /* USER CODE BEGIN 4 */
 
-/* ── UART callbacks ────────────────────────────────────────────────────────── */
+/* ── UART callbacks ───────── */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
   if (huart->Instance == USART2) {
     SlaveApp_UART2_RxCallback(rx_data_uart2);
@@ -310,8 +304,7 @@ void Error_Handler(void) {
   * @param  line: assert_param error line source number
   * @retval None
   */
-void assert_failed(uint8_t *file, uint32_t line)
-{
+void assert_failed(uint8_t *file, uint32_t line){
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line number,
      ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */

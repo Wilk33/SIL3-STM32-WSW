@@ -1,3 +1,4 @@
+// Copyright 2026 Tobiasz_Kandziora
 /**
  ******************************************************************************
  * @file    system_stm32l4xx.c
@@ -126,21 +127,16 @@
 /* #define USER_VECT_TAB_ADDRESS */
 
 #if defined(USER_VECT_TAB_ADDRESS)
-/*!< Uncomment the following line if you need to relocate your vector Table
-     in Sram else user remap will be done in Flash. */
-/* #define VECT_TAB_SRAM */
+
 
 #if defined(VECT_TAB_SRAM)
-#define VECT_TAB_BASE_ADDRESS   SRAM1_BASE      /*!< Vector Table base address field.
-                                                     This value must be a multiple of 0x200. */
+#define VECT_TAB_BASE_ADDRESS   SRAM1_BASE
 #else
-#define VECT_TAB_BASE_ADDRESS   FLASH_BASE      /*!< Vector Table base address field.
-                                                     This value must be a multiple of 0x200. */
+#define VECT_TAB_BASE_ADDRESS   FLASH_BASE
 #endif /* VECT_TAB_SRAM */
 
 #if !defined(VECT_TAB_OFFSET)
-#define VECT_TAB_OFFSET         0x00000000U     /*!< Vector Table offset field.
-                                                     This value must be a multiple of 0x200. */
+#define VECT_TAB_OFFSET         0x00000000U
 #endif /* VECT_TAB_OFFSET */
 
 #endif /* USER_VECT_TAB_ADDRESS */
@@ -206,7 +202,7 @@ void SystemInit(void) {
 
   /* FPU settings ------------------------------------------------------------*/
 #if (__FPU_PRESENT == 1) && (__FPU_USED == 1)
-  SCB->CPACR |= ((3UL << 20U) | (3UL << 22U)); /* set CP10 and CP11 Full Access */
+  SCB->CPACR |= ((3UL << 20U) | (3UL << 22U));
 #endif
 }
 

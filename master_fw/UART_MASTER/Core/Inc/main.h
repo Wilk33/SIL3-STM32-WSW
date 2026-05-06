@@ -20,7 +20,7 @@
 
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef MASTER_FW_UART_MASTER_CORE_INC_MAIN_H_
-#define __MAIN_H
+#define MASTER_FW_UART_MASTER_CORE_INC_MAIN_H_
 
 #ifdef __cplusplus
 extern "C" {
