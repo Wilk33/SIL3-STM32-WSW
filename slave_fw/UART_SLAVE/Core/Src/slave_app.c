@@ -40,7 +40,8 @@ static void SendMessage(const char *msg) {
 static void SendAuthorizationRequest(uint8_t command) {
   uint16_t crc = SIL_CalculateCRC(&command, 1);
   char buffer[24];
-  uint8_t len = snprintf(buffer, sizeof(buffer), "Aut_req:%d,%04X\r\n", command, crc);
+  uint8_t len = snprintf(buffer, sizeof(buffer), "Aut_req:%d,%04X\r\n",
+                         command, crc);
   HAL_UART_Transmit(&huart1, (uint8_t*) buffer, len, 100);
   slave_state = STATE_WAITING_MASTER_AUTH;
   auth_timeout = HAL_GetTick();
