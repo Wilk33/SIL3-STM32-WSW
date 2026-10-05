@@ -1,5 +1,10 @@
 # STM32 SIL3 Master-Slave Demo
 
+> [!IMPORTANT]
+> **Projekt został zamknięty i nie będzie dalej rozwijany.**
+>
+> Repozytorium pozostaje archiwum dotychczasowego kodu i dokumentacji demonstratora. Nie są planowane kolejne etapy, poprawki ani nowe wydania. Projekt nie stanowi certyfikowanego rozwiązania SIL3.
+
 Projekt demonstracyjny architektury Master-Slave przeznaczonej do systemów o podwyższonych wymaganiach bezpieczeństwa (SIL3).
 
 Celem obecnego etapu projektu jest wykonanie prostej operacji sterowania diodą LED na podstawie polecenia użytkownika wysłanego z komputera PC przez UART. Operacja może zostać wykonana przez układ Slave wyłącznie po uzyskaniu zgody od układu Master.
@@ -142,6 +147,8 @@ testy integracyjne, scenariusze testowe oraz walidacja działania systemu.
 
 # Status projektu
 
+Status końcowy: projekt zamknięty, bez dalszego rozwoju.
+
 Etap 1  
 Komunikacja UART PC -> Slave
 
@@ -156,3 +163,9 @@ Sterowanie LED
 
 Etap 5  
 Testy integracyjne
+
+---
+
+# Autorstwo i rozwój
+
+Projekt był tworzony przez Codex GPT-5.6-Sol pod kierunkiem zespołu projektowego opisanego powyżej, na podstawie jego wymagań i decyzji projektowych.
