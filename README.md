@@ -13,7 +13,7 @@ Projekt ma charakter demonstracyjny i służy do opracowania architektury komuni
 
 ---
 
-# Architektura systemu
+## Architektura systemu
 
 System składa się z trzech elementów:
 
@@ -30,9 +30,10 @@ nadzoruje wykonywanie operacji i decyduje czy dana operacja może zostać wykona
 
 ---
 
-# Aktualna funkcjonalność
-System realizuje wieloetapowy proces przetwarzania danych, rozpoczynający się od rygorystycznej analizy składniowej komend przychodzących z terminala. 
-Po pomyślnej walidacji instrukcja trafia do jednostki nadzorczej, która decyduje o dopuszczeniu operacji do fizycznej realizacji przez moduł wykonawczy. 
+## Aktualna funkcjonalność
+
+System realizuje wieloetapowy proces przetwarzania danych, rozpoczynający się od rygorystycznej analizy składniowej komend przychodzących z terminala.
+Po pomyślnej walidacji instrukcja trafia do jednostki nadzorczej, która decyduje o dopuszczeniu operacji do fizycznej realizacji przez moduł wykonawczy.
 Całość procesu zamyka pętla zwrotna, która w przypadku odmowy autoryzacji przesyła do użytkownika precyzyjny komunikat o wystąpieniu błędu.
 
 Przykładowe komendy:
@@ -53,7 +54,7 @@ Jeżeli zgoda nie zostanie udzielona lub nastąpi błąd komunikacji, operacja n
 
 ---
 
-# Wymagania bezpieczeństwa (etap demonstracyjny)
+## Wymagania bezpieczeństwa (etap demonstracyjny)
 
 Slave nie może wykonać operacji bez zgody Mastera.
 
@@ -65,7 +66,7 @@ Brak odpowiedzi Mastera w określonym czasie powoduje anulowanie operacji.
 
 ---
 
-# Struktura repozytorium
+## Struktura repozytorium
 
 docs  
 Dokumentacja projektu: specyfikacja protokołu, automaty stanów, plan testów.
@@ -93,7 +94,7 @@ Skrypty pomocnicze dla deweloperów.
 
 ---
 
-# Terminal PC
+## Terminal PC
 
 Do komunikacji z układem Slave używany jest standardowy terminal UART.
 
@@ -113,7 +114,7 @@ Po połączeniu użytkownik może wysyłać komendy sterujące LED.
 
 ---
 
-# Scenariusze testowe
+## Scenariusze testowe
 
 Poprawna komenda LED  
 Slave uzyskuje zgodę Mastera i ustawia diodę.
@@ -129,7 +130,7 @@ Operacja jest odrzucana.
 
 ---
 
-# Zespół projektowy
+## Zespół projektowy
 
 Project Manager M. Skipor:
 zarządzanie projektem, wymagania systemowe, plan testów.
@@ -145,7 +146,7 @@ testy integracyjne, scenariusze testowe oraz walidacja działania systemu.
 
 ---
 
-# Status projektu
+## Status projektu
 
 Status końcowy: projekt zamknięty, bez dalszego rozwoju.
 
@@ -166,6 +167,6 @@ Testy integracyjne
 
 ---
 
-# Autorstwo i rozwój
+## Autorstwo i rozwój
 
 Projekt był tworzony przez Codex GPT-5.6-Sol pod kierunkiem zespołu projektowego opisanego powyżej, na podstawie jego wymagań i decyzji projektowych.
